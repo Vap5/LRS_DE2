@@ -11,8 +11,8 @@ warnings.filterwarnings("ignore")
 
 
 # import the model
-RFG = pickle.load(open('D:\SEM 6\DE\RFG_LRS.pkl','rb'))
-df = pickle.load(open('D:\SEM 6\DE\df_LRS.pkl','rb'))
+RFG = pickle.load(open('RFG_LRS.pkl','rb'))
+df = pickle.load(open('df_LRS.pkl','rb'))
 
 def lottieurl_load(url: str):
     r= re.get(url)
